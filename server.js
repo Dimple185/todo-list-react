@@ -83,7 +83,7 @@ todoRoutes.route('/signup').post((req, res) => {
     user
         .save()
         .then((todo) => {
-            res.status(200).json({ msg: 'user added successfully' });
+            res.status(200).json({ msg: 'user added successfully!' });
         })
         .catch((err) => {
             res.status(400).send('adding new user failed!');
