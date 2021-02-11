@@ -7,6 +7,7 @@
     display: inline-block;
     font-size: 16px;
     text-align: center;
+    margin: 10px;
 }
 
 .container2 {
@@ -18,14 +19,14 @@
     display: inline-block;
     font-size: 16px;
     text-align: center;
+    margin: 10px;
 }
 
 .container :focus {
     outline: none;
 }
 
-.button2 {
-    background-color: #4CAF50;
+.buttons {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,6 +35,7 @@
     display: inline-block;
     font-size: 16px;
     text-align: center;
+    margin: 10px;
 }
 
 .button1 {
